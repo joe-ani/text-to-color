@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 500ms ease-in-out;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  color: rgb(60, 59, 59);
+  box-shadow: 0 0 15px rgba(45, 45, 45, 0.151);
+}
+
+.input:focus {
+  outline: none;
+}
